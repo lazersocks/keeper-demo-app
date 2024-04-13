@@ -1,0 +1,61 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #eee; /* Yellow background */
+  }
+  
+  .signup-form {
+    padding: 100px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-form input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .signup-form button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #ffd600; /* Yellow button */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .signup-form .google-signup {
+    background-color: #fff; /* White button for Google OAuth */
+    color: #444;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-form .google-signup img {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .redirect-login {
+    margin-top: 20px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .redirect-login span {
+    color: #1a73e8; /* Google blue for clickable text */
+    text-decoration: underline;
+  }
