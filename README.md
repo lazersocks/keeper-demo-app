@@ -1,8 +1,21 @@
 # Keeper Notes Clone using Ezbase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a demo application that utilizes Ezbase, our final year project, as a Backend as a Service (BaaS). Ezbase powers the backend functionality of this demo, providing a robust platform for handling CRUD operations, file uploads, authentication, and OAuth.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **CRUD Operations**: Create, read, update, and delete notes.
+- **File Uploading**: Ability to upload and manage files.
+- **Authentication**: Secure user authentication system.
+- **OAuth Integration**: Support for OAuth-based third-party login.
+
+## Getting Started
+
+To run this project on your local machine, you must have `pnpm` installed as it uses `pnpm` for package management.
+
+### Prerequisites
+
+Ensure that you have `pnpm` installed. If you do not have `pnpm` installed, you can install it using the following command:
+
+```bash
+npm install -g pnpm
