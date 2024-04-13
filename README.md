@@ -19,3 +19,14 @@ Ensure that you have `pnpm` installed. If you do not have `pnpm` installed, you 
 
 ```bash
 npm install -g pnpm
+```
+Ensure that you have an instance of Ezbase server running.
+
+### Install and Run 
+```bash
+pnpm i
+```
+
+```bash
+pnpm run dev
+```
